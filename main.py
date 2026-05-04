@@ -375,3 +375,65 @@ list2 = [2,3,4,2]
 #         print("this is prime number")
 # else:
 #     print("This is not prime number")
+
+# user_input = str(input("Enter the alphabate").lower())
+# vowels = ["a","e","i", "o", "u"]
+# for i in range(len(vowels)):
+#     if vowels[i] == user_input:
+#         print("this is vowels")
+#         break
+#     else:
+#         print("it is not and vowel")
+#         break    
+
+# user_input = input("enter here").lower()
+# vowels = ["a", "e", "i", "o", "u"]
+# if user_input in vowels:
+#     print("this is vowels")
+    
+# else:
+#     print("This is not")
+
+# user_input = int(input("enter the number"))
+
+# if user_input > 1:
+#     for i in range(2,int(user_input**0.5)+1):
+#         if user_input % i == 0:
+#             print("Not")
+#             break
+#     else:
+#         print("yes")
+# else:
+#     print("not")
+
+# user_input = str(input("Enter the text"))
+# out = user_input.upper()
+# print(out)
+
+# user_input = list(input("enter the element"))
+# target = 10
+# out = []
+# for i in range(len(user_input)):
+#     for j in range(len(user_input)):
+#         if int(user_input[i]) + int(user_input[j]) == target:
+#             list1 = user_input[i]
+#             list2 = user_input[j]
+#             add = list(list1 + list2)
+#             out.append(add)
+    
+# else:
+#     print("No element found")
+# print(out)
+
+# user_input = input("enter the text").replace(" ","").lower()
+# print(user_input)
+# convert = list(user_input)
+# un = []
+# for x in convert:
+#     if x not in un:
+#         un.append(x)
+# print(un)
+# for x in un:
+#     count = user_input.count(x)
+#     print(x, count)
+
