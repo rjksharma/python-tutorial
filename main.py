@@ -349,14 +349,26 @@ list2 = [2,3,4,2]
 # else:
 #     print("Odd")
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
+# print(int(num**0.5)+1)
 
+# if num > 1:
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             print(num, "is not a prime number")
+#             break
+#     else:
+#         print(num, "is a prime number")
+# else:
+#     print(num, "is not a prime number")
+
+num = int(input("Enter the nmber:- "))
 if num > 1:
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
-            print(num, "is not a prime number")
+            print("this is not and prime number")
             break
     else:
-        print(num, "is a prime number")
+        print("this is a prime number")
 else:
-    print(num, "is not a prime number")
+    print("This is not prime number")
