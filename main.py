@@ -325,4 +325,31 @@ list2 = [2,3,4,2]
 # print(risk)
 
 
+# strs = ["flower","flow","flowing","flight"]
+# # ref = []
+# # for i in range(len(strs)):
+# #     if strs[i]
+    
+# strs.sort()
+# first = strs[0]
+# last = strs[-1]
 
+# common = []
+# i = 0
+# while i < 10:
+#     if first[i] == last[i]:
+#         common.append(first[i])
+#     i =+ 1
+    
+# print(common)
+
+days = 13
+start_day = "Saturday"
+week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+start_index = week.index(start_day)
+sunday_count = 0
+for i in range(days):
+    current_day = week[(start_index + i) % 7]
+    if current_day == "Sunday":
+        sunday_count += 1
+print("Number of Sundays:", sunday_count)
