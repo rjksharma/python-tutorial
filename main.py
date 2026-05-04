@@ -254,4 +254,75 @@ list2 = [2,3,4,2]
 # l.sort()
 # print(l)
 
+# n = int(input())
+# arr = list(map(int, input().split()))
+# for num in arr:
+#     print(num, end ="")
+# input_str = input()
+# print(type(input_str))
+# number = input_str.split(" ")
+# print(type(number))
+# print(number)
+
+# user_input = str(input("Enter the string Here"))
+# star = user_input.count("*")
+# hash = user_input.count("#")
+# if star > hash:
+#     print("Negative Interger")
+    
+# elif star < hash:
+#     print("Positver Interger")
+# else:
+#     print("0")
+
+# user_input = str(input("Enter the string Here"))
+# star = 0
+# hash = 0
+# for x in user_input:
+#     if x == "*":
+#         star += 1
+#     elif x == "#":
+#         hash += 1
+# print(star)
+# print(hash)
+        
+    
+# arr = [8,4,9,2,1]
+# first = arr[0]
+# count = 1
+# for x in arr:
+#     if first < x:
+#         count += 1
+# print(count)
+# b = list(input("Enter the your color"))
+# print(b)
+# # b = ["r","b","b","b","g","y","g","y","r"]
+# un = []
+# for i in b:
+#     if i not in un:
+#         un.append(i)
+# for x in un:
+#     if b.count(x) % 2 == 0:
+#         # print(f"{x} colour ballon is present odd number of times in the bunch.")
+#         pass
+#     else:
+#         print(f"{x} colour ballon is present even number of times in the bunch.")
+
+# num = int(input("Enter no: "))
+# risk = []
+# i = 0
+# allowed = [0,1,2]
+# while i < num:
+#     user_input = int(input("Enter risk number (1, 3, 5 only): "))
+#     if user_input in allowed:
+#         risk.append(user_input)
+#         i += 1
+#     else:
+#         print("Invalid! Choose only 1, 3, or 5.")
+
+# risk.sort()
+
+# print(risk)
+
+
 
